@@ -44,6 +44,34 @@ Remember that if you run out of RAM, the application will be terminated by the L
 
 ## Step 1 — Install Let’s Encrypt SSL Certificate
 
+## Add the X2Go repository on Launchpad to APT
+
+Use the following commands to add the `ppa:x2go/stable` as a package source to your local system. Before doing so, you might like to learn about [apt-get](https://help.ubuntu.com/community/AptGet), [sudo](https://help.ubuntu.com/community/RootSudo) and [ppa](https://help.ubuntu.com/community/Repositories/CommandLine#Adding_Launchpad_PPA_Repositories)s
+
+Alternatively you can also use the Ubuntu [software center](https://help.ubuntu.com/community/Repositories/Ubuntu#Adding_PPAs).
+
+
+To to install `add-apt-repository` on Ubuntu 16.04:
+
+```
+sudo apt-get install software-properties-common
+```
+
+Afterwards you can add our ppa:
+
+```
+sudo add-apt-repository ppa:x2go/stable
+sudo apt-get update
+```
+
+The X2Go related packages should now be listed calling:
+
+```
+apt-cache search x2go
+```
+
+Congratulations, you are now able to access the X2Go packages. You may continue by installing x2goserver, x2goclient or pyhoca-gui or any other of the available packages.
+
 Introduction to the step. What are we going to do and why are we doing it?
 
 First....
