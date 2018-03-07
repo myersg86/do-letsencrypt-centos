@@ -2,13 +2,13 @@
 
 ### Introduction
 
+In this guide, you will [configure/set up/build/deploy] [some thing]...
+
+When you're finished, you'll be able to...
+
 For efficiency, security, and the ability to do everything from the command line, many servers don't use a graphical user interface (GUI). However, there are times when you'll want to run GUI applications on your remote servers, like when you're testing web sites in browsers or you're looking to set up a remotely accessible workstation with a full desktop environment (DE).
 
 The typical solution to interacting with a graphical interface on a remote computer running Linux or other *nix variants is Virtual Network Computing (VNC). Unfortunately, VNC is notoriously sluggish, insecure by default, and requires a lot of manual configuration to get up and running.
-x2go uses the nx library that was developed by NoMachine. All of the latency intensive parts of X forwarding was worked around by creating a nx proxy on each side of the network connection and sending compressed updates between the two proxies.
-
-In contrast, X2Go provides several advantages:
-
 
 In contrast, X2Go provides several advantages:
 - Graphical Remote Desktop that is responsive and works well even over low bandwidth connections
@@ -28,11 +28,7 @@ Such a setup is useful when:
 - You're working with a team, and everybody needs access to a single remote desktop.
 - You need some combination of graphical desktop, high-speed Internet, reliable power source, and ability to scale resources up and down quickly.
 
-Introductory paragraph about the topic that explains what this topic is about and why the reader should care; what problem does it solve?
-
-In this guide, you will [configure/set up/build/deploy] [some thing]...
-
-When you're finished, you'll be able to...
+x2go uses the nx library that was developed by NoMachine. All of the latency intensive parts of X forwarding was worked around by creating a nx proxy on each side of the network connection and sending compressed updates between the two proxies.
 
 ## Prerequisites
 
