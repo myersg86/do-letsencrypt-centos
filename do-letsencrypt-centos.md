@@ -10,12 +10,9 @@ In contrast, X2Go provides several advantages:
 
 x2go uses the nx library that was developed by NoMachine. All of the latency intensive parts of X forwarding was worked around by creating a nx proxy on each side of the network connection and sending compressed updates between the two proxies.
 
-Graphical Remote Desktop that is responsive and works well even over low bandwidth connections
-Support for sound
-Traffic is securely tunneled over SSH
 
 In contrast, X2Go provides several advantages:
-
+- Graphical Remote Desktop that is responsive and works well even over low bandwidth connections
 - Instead of sending images from the remote machine to your computer like VNC, X2Go uses a modified version of the X (graphical) server and X11 protocol to minimize the amount of data exchanged between client and server. This gives you a near local-like desktop experience. The only requirement for this kind of performance is that the network distance between client and server isn't too large. When you ping the server from the client machine, the round-trip time should not exceed 100 milliseconds. Close to 50ms would be optimal, and 200ms would be acceptable but not great.
 - X2Go works with your existing SSH daemon, encrypting all traffic between the client and the server while relying on the same well-tested and secure mechanism of authentication.
 - X2Go doesn't require complex manual configuration. It knows how to set up the session and launch popular desktop environments like XFCE, LXDE, MATE, and others automatically.
