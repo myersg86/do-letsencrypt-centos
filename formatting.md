@@ -90,14 +90,12 @@ This is one line of the file
 This is another line of the file
 . . .
 This is a line further down the file
-
 ```
 
 Secondary label example:
 
 ```
 This is the secondary label textThis is some output from a command
-
 ```
 
 #### Code Block Environment Colors
