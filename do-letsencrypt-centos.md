@@ -5,10 +5,9 @@
 For efficiency, security, and the ability to do everything from the command line, many servers don't use a graphical user interface (GUI). However, there are times when you'll want to run GUI applications on your remote servers, like when you're testing web sites in browsers or you're looking to set up a remotely accessible workstation with a full desktop environment (DE).
 
 The typical solution to interacting with a graphical interface on a remote computer running Linux or other *nix variants is Virtual Network Computing (VNC). Unfortunately, VNC is notoriously sluggish, insecure by default, and requires a lot of manual configuration to get up and running.
+x2go uses the nx library that was developed by NoMachine. All of the latency intensive parts of X forwarding was worked around by creating a nx proxy on each side of the network connection and sending compressed updates between the two proxies.
 
 In contrast, X2Go provides several advantages:
-
-x2go uses the nx library that was developed by NoMachine. All of the latency intensive parts of X forwarding was worked around by creating a nx proxy on each side of the network connection and sending compressed updates between the two proxies.
 
 
 In contrast, X2Go provides several advantages:
