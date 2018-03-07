@@ -1,5 +1,4 @@
-
-<!-- Some examples of how to mark up various things
+Examples of how to mark up various things
 
 This is _italics_ and this is **bold**.
 
