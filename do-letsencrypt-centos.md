@@ -6,16 +6,19 @@ In this guide, you will [configure/set up/build/deploy] [some thing]...
 
 When you're finished, you'll be able to...
 
-For efficiency, security, and the ability to do everything from the command line, many servers don't use a graphical user interface (GUI). However, there are times when you'll want to run GUI applications on your remote servers, like when you're testing web sites in browsers or you're looking to set up a remotely accessible workstation with a full desktop environment (DE).
+For efficiency, security, and the ability to do everything from the command line, many servers don't use a graphical user interface (GUI).
+Sometimes you may want to run GUI applications on your remote servers, however.
 
-The typical solution to interacting with a graphical interface on a remote computer running Linux or other *nix variants is Virtual Network Computing (VNC). Unfortunately, VNC is notoriously sluggish, insecure by default, and requires a lot of manual configuration to get up and running.
+The typical solution to interacting with a graphical interface on a remote computer running Linux  is Virtual Network Computing (VNC)., VNC connections are notioursly sluggish and can seem unresponsive on slow connections. Setting VNC servers up to allow encrypted remote access also requires a lot of configuration. X2Go was created as a solution to this problem.
+
+X2Go uses the nx library originally developed by NoMachine. 
+Latency intensive parts of X-forwarding have worked around by creating a proxy on each side of the network connection and sending compressed updates back and forth.
 
 In contrast, X2Go provides several advantages:
-- Graphical Remote Desktop that is responsive and works well even over low bandwidth connections
-- Instead of sending images from the remote machine to your computer like VNC, X2Go uses a modified version of the X (graphical) server and X11 protocol to minimize the amount of data exchanged between client and server. This gives you a near local-like desktop experience. The only requirement for this kind of performance is that the network distance between client and server isn't too large. When you ping the server from the client machine, the round-trip time should not exceed 100 milliseconds. Close to 50ms would be optimal, and 200ms would be acceptable but not great.
+- X2Go doesn't require complex manual configuration.
+- Responsive Graphical Remote Desktop that works well even over low bandwidth connections
 - X2Go works with your existing SSH daemon, encrypting all traffic between the client and the server while relying on the same well-tested and secure mechanism of authentication.
-- X2Go doesn't require complex manual configuration. It knows how to set up the session and launch popular desktop environments like XFCE, LXDE, MATE, and others automatically.
-- Unlike VNC, X2Go sets up the environment when you log in, so you don't need to leave an X server running all the time. Plus, your session continues running even after you disconnect, which means that when you reconnect you'll find everything as you left it, just like on a local desktop.
+- Unlike VNC, X2Go sets up the environment when you log in, so you don't need to leave an X server running all the time.
 - X2Go supports multiple login sessions, desktops, and users logged in to their own separate environments.
 - Instead of a whole desktop environment, you can launch single graphical applications in X2Go, saving your local machine's resources while taking advantage of a server's more powerful resources, even leaving tasks running remotely for days at a time.
 
@@ -28,7 +31,6 @@ Such a setup is useful when:
 - You're working with a team, and everybody needs access to a single remote desktop.
 - You need some combination of graphical desktop, high-speed Internet, reliable power source, and ability to scale resources up and down quickly.
 
-x2go uses the nx library that was developed by NoMachine. All of the latency intensive parts of X forwarding was worked around by creating a nx proxy on each side of the network connection and sending compressed updates between the two proxies.
 
 ## Prerequisites
 
