@@ -65,17 +65,14 @@ This is how the above examples look when rendered:
 
 > ```
 > sudo apt-get update
->
 > ```
 >
 > ```
 > adduser sammy
->
 > ```
 >
 > ```
 > FLUSH PRIVILEGES;
->
 > ```
 
 #### Code Block Labels
