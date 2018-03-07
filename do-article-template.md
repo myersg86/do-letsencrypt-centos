@@ -1,5 +1,4 @@
-<!--
-This is an article template you can use as a quick starting point when writing DigitalOcean tutorials. Once you've reviewed the template, delete the comments and begin writing your article. You'll find some examples of our custom Markdown at the very bottom of the template.
+<!--This is an article template you can use as a quick starting point when writing DigitalOcean tutorials. Once you've reviewed the template, delete the comments and begin writing your article. You'll find some examples of our custom Markdown at the very bottom of the template.
 
 As you write, refer to our style and formatting guidelines for more detailed explanations:
 
@@ -7,9 +6,7 @@ As you write, refer to our style and formatting guidelines for more detailed exp
 
 Use our [Markdown previewer](https://www.digitalocean.com/community/markdown) to review your article's formatting.
 
-Readers should be able to follow your tutorial from the beginning to the end on a DigitalOcean Droplet. Before submitting your article to the editorial team, please be sure to create a new Droplet and test your article from start to finish on it exactly as written. Cut and paste commands from the article into your terminal to make sure there aren't typos in the commands. If you find yourself executing a command that isn't in the article, incorporate it into the article to make sure the reader gets the exact same results. We will test your article and send it back to you if we run into technical problems, which significantly slows down the publication process.
--->
-
+Readers should be able to follow your tutorial from the beginning to the end on a DigitalOcean Droplet. Before submitting your article to the editorial team, please be sure to create a new Droplet and test your article from start to finish on it exactly as written. Cut and paste commands from the article into your terminal to make sure there aren't typos in the commands. If you find yourself executing a command that isn't in the article, incorporate it into the article to make sure the reader gets the exact same results. We will test your article and send it back to you if we run into technical problems, which significantly slows down the publication process.-->
 
 # How To [Install/Configure/Do Something] on [Distribution]
 
