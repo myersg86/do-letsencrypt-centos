@@ -18,13 +18,12 @@ In contrast, X2Go provides several advantages:
 - X2Go doesn't require complex manual configuration.
 - Responsive Graphical Remote Desktop that works well even over low bandwidth connections
 - X2Go works with your existing SSH daemon, encrypting all traffic between the client and the server while relying on the same well-tested and secure mechanism of authentication.
-- Unlike VNC, X2Go sets up the environment when you log in, so you don't need to leave an X server running all the time.
 - X2Go supports multiple login sessions, desktops, and users logged in to their own separate environments.
 - Instead of a whole desktop environment, you can launch single graphical applications in X2Go, saving your local machine's resources while taking advantage of a server's more powerful resources, even leaving tasks running remotely for days at a time.
 
 Such a setup is useful when:
 
-- You need this type of desktop environment but can't install a Linux-based operating system locally.
+- You need this desktop environment but can't install a Linux-based operating system locally.
 - You're going on a trip but can't take your computer with you.
 - Your Internet service provider gives you very little bandwidth, but you need access to tens or hundreds of gigabytes of data.
 - You need a separate machine to work on something for weeks or months at a time.
@@ -36,6 +35,7 @@ Such a setup is useful when:
 
 Before you begin this guide you'll need the following:
 
+- An Ubuntu 16.04 instance with at least 2GB of RAM. (2GB is minimal, 4GB is better to start with, and 8GB+ would be optimal). Choose a server location that is as close as possible to the area where you intend to connect from.
 -   A CentOS 7 droplet with SSH access. For more information, visit [this tutorial](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7)
 -   A LAMP stack, which you can install by following [this tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7)
 
