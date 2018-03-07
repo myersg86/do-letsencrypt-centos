@@ -10,8 +10,6 @@ When you're finished, you'll be able to...
 
 ## Prerequisites
 
-<!-- Prerequisites are important. Learn more at https://do.co/style#prerequisites -->
-
 Before you begin this guide you'll need the following:
 
 - [number of servers] <OS and OS Version> server(s) <!-- Also specify the amount of RAM the server needs if relevant. -->
@@ -21,8 +19,6 @@ Before you begin this guide you'll need the following:
 
 ## Step 1 — Doing Something
 
-<!-- For more information on steps, see https://do.co/style/#steps -->
-
 Introduction to the step. What are we going to do and why are we doing it?
 
 First....
@@ -30,12 +26,6 @@ First....
 Next...
 
 Finally...
-
-<!--
-If showing a command, explain the command first by talking about what it does. Then show the command.
-
-If showing a configuration file, try to show only the relevant parts and explain what needs to change.
--->
 
 Now transition to the next step by telling the reader what's next.
 
@@ -58,8 +48,6 @@ Transition to the next step.
 ## Conclusion
 
 In this article you [configured/set up/built/deployed] [something]. Now you can....
-
-<!-- Speak  to reader benefits of this technique or procedure and optionally provide places for further exploration. -->
 
 <!-- Some examples of how to mark up various things
 
@@ -101,8 +89,6 @@ Here's output from a command:
 Could not connect to Redis at 127.0.0.1:6379: Connection refused
 ```
 
-Learn about formatting commands and terminal output at https://do.co/style#code
-
 Key presses should be written in ALLCAPS with in-line code formatting: `ENTER`.
 
 Use a plus symbol (+) if keys need to be pressed simultaneously: `CTRL+C`.
@@ -116,20 +102,3 @@ Learn more about how to use variables to highlight important items at https://do
 Use `<^>your_server_ip<^>` when referencing the IP of the server.  Use `111.111.111.111` and `222.222.222.222` if you need other IP addresses in examples.
 
 Learn more about host names and domains at https://do.co/style#users-hostnames-and-domains
-
-<$>[note]
-**Note:** This is a note.
-<$>
-
-<$>[warning]
-**Warning:** This is a warning.
-<$>
-
-Learn more about notes at https://do.co/style#notes-and-warnings
-
-Screenshots should be in PNG format and hosted on imgur. Embed them in the article using the following format:
-
-![Alt text for screen readers](/path/to/img.png)
-
-Learn more about images at https://do.co/style#images-and-other-assets
--->
