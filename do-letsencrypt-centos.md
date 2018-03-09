@@ -1,8 +1,8 @@
-# How To Set Up a Remote Desktop with X2Go on Ubuntu 16.04
+# How To Set Up a Remote Desktop with X2Go on Ubuntu 18.04
 
 ### Introduction
 
-In this guide, you will [configure/set up/build/deploy] [some thing]...
+In this guide, you will you'll have a Linux desktop that you can connect to remotely and that includes exactly the same utilities you would get by installing Ubuntu Mate 18.04
 
 When you're finished, you'll be able to...
 
